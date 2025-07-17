@@ -80,9 +80,9 @@ You can find the Docker builds here:
 https://hub.docker.com/r/tsxcloud/valheim-arm
 
 ## Acknowledgments
-https://github.com/husjon/valheim_server_oci_setup
-https://gitlab.com/tedtramonte/valheim-server
-https://github.com/Kron4ek/Wine-Builds     
+https://github.com/husjon/valheim_server_oci_setup  
+https://gitlab.com/tedtramonte/valheim-server  
+https://github.com/Kron4ek/Wine-Builds       
 
 ## 
 Enjoying the project? A ⭐ goes a long way!
