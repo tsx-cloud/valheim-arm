@@ -1,0 +1,12 @@
+### BOX64 block. Description and more settings: https://github.com/ptitSeb/box64/blob/main/docs/USAGE.md
+
+#BOX64_LOG=0
+# These settings reduce performance but increase compatibility:
+#BOX64_DYNAREC_STRONGMEM=1
+#BOX64_DYNAREC_BIGBLOCK=0
+
+
+### FEX-EMU Block. Description and more settings: https://github.com/FEX-Emu/FEX/blob/main/FEXCore/Source/Interface/Config/Config.json.in
+
+# These settings reduce performance but increase compatibility:
+#FEX_PARANOIDTSO=true

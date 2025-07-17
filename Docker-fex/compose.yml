@@ -1,0 +1,18 @@
+services:
+  valheim_server:
+    image: quay.io/tedtramonte/valheim-server:latest
+    restart: unless-stopped
+    stop_signal: SIGINT # This is for graceful termination, do not change it, unless you know what you are doing
+    ports:
+      - "2456:2456/udp"
+      - "2457:2457/udp"
+      - "2458:2458/udp"
+    environment:
+      - SERVER_NAME=Valheim_Server
+      - SERVER_WORLD=tsx_world
+      - SERVER_PASSWORD=123456780
+      - ENABLE_PLUGINS=true
+    volumes:
+      # Bind mount, to access the files directly on the host
+      - ./valheim/server/:/root/valheim-server
+      - ./valheim/persistentdata/:/root/.config/unity3d/IronGate/Valheim

@@ -1,0 +1,23 @@
+services:
+  valheim_server:
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "2456:2456/udp"
+      - "2457:2457/udp"
+      - "2458:2458/udp"
+    environment:
+      - SERVER_NAME=Valheim_Server
+      - SERVER_WORLD=tsx_world
+      - SERVER_PASSWORD=123456780
+      - ENABLE_PLUGINS=true
+    volumes:
+      # Bind mount, to access the files directly on the host
+      - ./valheim/server/:/root/valheim-server
+      - ./valheim/persistentdata/:/root/.config/unity3d/IronGate/Valheim
+    #This is required for ntsync to work inside Docker.
+    #If ntsync support is not enabled in your Linux kernel, comment out this section, otherwise Docker Compose won't start.
+#    devices:
+#      - /dev/ntsync:/dev/ntsync

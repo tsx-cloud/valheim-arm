@@ -1,0 +1,1514 @@
+valheim_server-1  | Load extra Box64 and Fex-emu settings from emulators.rc
+valheim_server-1  | INFO: Emulators config not present, copying default
+valheim_server-1  |  
+valheim_server-1  |  
+valheim_server-1  | Box64 arm64 v0.3.7 c558bdcb with Dynarec built on Jul 14 2025 06:36:33
+valheim_server-1  | 6.14.0-23-generic
+valheim_server-1  | Description:	Ubuntu 25.04
+valheim_server-1  | wine-10.12.r0.gb09545bc ( TkG Staging NTsync )
+valheim_server-1  | Architecture:                         aarch64
+valheim_server-1  | CPU op-mode(s):                       64-bit
+valheim_server-1  | CPU(s):                               4
+valheim_server-1  | On-line CPU(s) list:                  0-3
+valheim_server-1  | Model name:                           Neoverse-N1
+valheim_server-1  | NUMA node0 CPU(s):                    0-3
+valheim_server-1  |  
+valheim_server-1  | Update
+valheim_server-1  | [[31mBOX64[0m] Error: Reading elf header of /root/steamcmd/steamcmd.sh, Try to launch using bash instead
+valheim_server-1  | Redirecting stderr to '/root/Steam/logs/stderr.txt'
+valheim_server-1  | Logging directory: '/root/Steam/logs'
+valheim_server-1  | [  0%] Checking for available updates...
+valheim_server-1  | [----] Verifying installation...
+valheim_server-1  | UpdateUI: skip show logo
+valheim_server-1  | Steam Console Client (c) Valve Corporation - version 1751406682
+valheim_server-1  | -- type 'quit' to exit --
+valheim_server-1  | Loading Steam API...[0mIPC function call IClientUtils::GetSteamRealm took too long: 167 msec
+valheim_server-1  | OK
+valheim_server-1  | [0m"@sSteamCmdForcePlatformType" = "windows"
+valheim_server-1  | [0m
+valheim_server-1  | Connecting anonymously to Steam Public...[0mOK
+valheim_server-1  | [0mWaiting for client config...[0mOK
+valheim_server-1  | [0mWaiting for user info...[0mOK
+valheim_server-1  | [0mIPC function call IClientAppManager::GetUpdateInfo took too long: 56 msec
+valheim_server-1  |  Update state (0x61) downloading, progress: 0.00 (0 / 1591812410)
+valheim_server-1  | [0m[[31mBOX32[0m] Warning, long 4294967295 is not a 32bits value
+valheim_server-1  | [[31mBOX32[0m] Warning, long 4294967295 is not a 32bits value
+valheim_server-1  | [[31mBOX32[0m] Warning, long 4294967295 is not a 32bits value
+valheim_server-1  | [[31mBOX32[0m] Warning, long 4294967295 is not a 32bits value
+valheim_server-1  | [[31mBOX32[0m] Warning, long 4294967295 is not a 32bits value
+valheim_server-1  | [[31mBOX32[0m] Warning, long 4294967295 is not a 32bits value
+valheim_server-1  | IPC function call IClientAppManager::GetUpdateInfo took too long: 54 msec
+valheim_server-1  | IPC function call IClientAppManager::GetUpdateInfo took too long: 43 msec
+valheim_server-1  |  Update state (0x61) downloading, progress: 5.49 (87414958 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 11.10 (176629501 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 15.39 (244981908 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 19.42 (309199462 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 23.47 (373582139 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 27.12 (431651411 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 30.73 (489159768 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 34.43 (548047474 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 38.15 (607302399 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 42.11 (670353301 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 46.05 (733055346 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 49.52 (788221052 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 53.53 (852041569 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 57.54 (915978313 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 61.82 (984135551 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 65.83 (1047827955 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 69.95 (1113540770 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 73.90 (1176271565 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 77.78 (1238134741 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 81.88 (1303435393 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 85.81 (1365937418 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 89.75 (1428590837 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 93.66 (1490861702 / 1591812410)
+valheim_server-1  | [0m Update state (0x61) downloading, progress: 97.73 (1555744348 / 1591812410)
+valheim_server-1  | [0m Update state (0x81) verifying update, progress: 13.53 (215350791 / 1591812410)
+valheim_server-1  | [0m Update state (0x81) verifying update, progress: 52.33 (833002274 / 1591812410)
+valheim_server-1  | [0m Update state (0x81) verifying update, progress: 91.28 (1453027167 / 1591812410)
+valheim_server-1  | [0mIPC function call IClientAppManager::GetUpdateInfo took too long: 76 msec
+valheim_server-1  | Success! App '896660' fully installed.
+valheim_server-1  | [0mUnloading Steam API...[0mOK
+valheim_server-1  | [0mChecking if BepInEx files need to be copied
+valheim_server-1  | Copy BepInEx files
+valheim_server-1  |  
+valheim_server-1  | Wine configuration
+valheim_server-1  | Executing cd /usr/local/bin
+valheim_server-1  | ------------------------------------------------------
+valheim_server-1  | warning: Running Wine/winetricks as root is highly discouraged. See https://wiki.winehq.org/FAQ#Should_I_run_Wine_as_root.3F
+valheim_server-1  | ------------------------------------------------------
+valheim_server-1  | ------------------------------------------------------
+valheim_server-1  | warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+valheim_server-1  | ------------------------------------------------------
+valheim_server-1  | ------------------------------------------------------
+valheim_server-1  | warning: You appear to be using Wine's new wow64 mode. Note that this is EXPERIMENTAL and not yet fully supported. If reporting an issue, be sure to mention this.
+valheim_server-1  | ------------------------------------------------------
+valheim_server-1  | Using winetricks 20250102-next - sha256sum: e27fccf48bdf3b6c343747c5d494d9f3c3eaf3d57212cf3c3433d17cd984f26e with wine-10.12.r0.gb09545bc ( TkG Staging NTsync ) and WINEARCH=win64
+valheim_server-1  | Executing w_do_call sound=disabled
+valheim_server-1  | Executing load_sound disabled
+valheim_server-1  | Setting sound driver to disabled
+valheim_server-1  | Executing wine C:\windows\syswow64\regedit.exe C:\windows\Temp\_sound=disabled\set-sound.reg
+valheim_server-1  | Executing wine C:\windows\regedit.exe C:\windows\Temp\_sound=disabled\set-sound.reg
+valheim_server-1  | Trying to remove /tmp/.X0-lock
+valheim_server-1  |  
+valheim_server-1  | Starting Xvfb
+valheim_server-1  | Starting server PRESS CTRL-C to exit
+valheim_server-1  |  
+valheim_server-1  | Installing libpulse-mainloop-glib.so.0:x86_64
+valheim_server-1  | /tmp/tmp.fEXFrGGskJ ~/valheim-server
+valheim_server-1  | --2025-07-17 03:29:56--  http://mirrors.edge.kernel.org/ubuntu/pool/main/p/pulseaudio/libpulse-mainloop-glib0_17.0%2Bdfsg1-2ubuntu2_amd64.deb
+valheim_server-1  | Resolving mirrors.edge.kernel.org (mirrors.edge.kernel.org)... 147.75.80.249, 2604:1380:4601:e00::3
+valheim_server-1  | Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.80.249|:80... connected.
+valheim_server-1  | HTTP request sent, awaiting response... 200 OK
+valheim_server-1  | Length: 12390 (12K) [application/octet-stream]
+valheim_server-1  | Saving to: ‘libpulse-mainloop-glib0_17.0+dfsg1-2ubuntu2_amd64.deb’
+valheim_server-1  | 
+valheim_server-1  |      0K .......... ..                                         100%  849M=0s
+valheim_server-1  | 
+valheim_server-1  | 2025-07-17 03:29:56 (849 MB/s) - ‘libpulse-mainloop-glib0_17.0+dfsg1-2ubuntu2_amd64.deb’ saved [12390/12390]
+valheim_server-1  | 
+valheim_server-1  | Installing libpulse-mainloop-glib.so.0:x86_64 - Done
+valheim_server-1  | ~/valheim-server
+valheim_server-1  | Plugins support is ENABLED
+valheim_server-1  | [UnityMemory] Configuration Parameters - Can be set up in boot.config
+valheim_server-1  |     "memorysetup-bucket-allocator-granularity=16"
+valheim_server-1  |     "memorysetup-bucket-allocator-bucket-count=8"
+valheim_server-1  |     "memorysetup-bucket-allocator-block-size=4194304"
+valheim_server-1  |     "memorysetup-bucket-allocator-block-count=1"
+valheim_server-1  |     "memorysetup-main-allocator-block-size=16777216"
+valheim_server-1  |     "memorysetup-thread-allocator-block-size=16777216"
+valheim_server-1  |     "memorysetup-gfx-main-allocator-block-size=16777216"
+valheim_server-1  |     "memorysetup-gfx-thread-allocator-block-size=16777216"
+valheim_server-1  |     "memorysetup-cache-allocator-block-size=4194304"
+valheim_server-1  |     "memorysetup-typetree-allocator-block-size=2097152"
+valheim_server-1  |     "memorysetup-profiler-bucket-allocator-granularity=16"
+valheim_server-1  |     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+valheim_server-1  |     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+valheim_server-1  |     "memorysetup-profiler-bucket-allocator-block-count=1"
+valheim_server-1  |     "memorysetup-profiler-allocator-block-size=16777216"
+valheim_server-1  |     "memorysetup-profiler-editor-allocator-block-size=1048576"
+valheim_server-1  |     "memorysetup-temp-allocator-size-main=4194304"
+valheim_server-1  |     "memorysetup-job-temp-allocator-block-size=2097152"
+valheim_server-1  |     "memorysetup-job-temp-allocator-block-size-background=1048576"
+valheim_server-1  |     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+valheim_server-1  |     "memorysetup-allocator-temp-initial-block-size-main=262144"
+valheim_server-1  |     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+valheim_server-1  |     "memorysetup-temp-allocator-size-background-worker=32768"
+valheim_server-1  |     "memorysetup-temp-allocator-size-job-worker=262144"
+valheim_server-1  |     "memorysetup-temp-allocator-size-preload-manager=262144"
+valheim_server-1  |     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+valheim_server-1  |     "memorysetup-temp-allocator-size-audio-worker=65536"
+valheim_server-1  |     "memorysetup-temp-allocator-size-cloud-worker=32768"
+valheim_server-1  |     "memorysetup-temp-allocator-size-gfx=262144"
+valheim_server-1  | Mono path[0] = 'Z:/root/valheim-server/valheim_server_Data/Managed'
+valheim_server-1  | Mono config path = 'Z:/root/valheim-server/MonoBleedingEdge/etc'
+valheim_server-1  | 2025-07-17 03:30:02,778 INFO: Waiting for valheim_server.exe to be running
+valheim_server-1  |    1051 ?        00:00:02 valheim_server.
+valheim_server-1  |  
+valheim_server-1  | Checking NTSYNC
+valheim_server-1  | The NTSYNC module has been present in the Linux kernel since version 6.14 and is usually included only in the generic kernel versions.
+valheim_server-1  | Kernel version on this machine is -- 6.14.0-23-generic
+valheim_server-1  |  
+valheim_server-1  | COMMAND    PID USER FD   TYPE DEVICE SIZE/OFF NODE NAME
+valheim_server-1  | entrypoin    1 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | Xvfb      1026 root  0r   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | wine      1047 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | valheim_s 1051 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | wineserve 1063 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | wineserve 1063 root 53u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | services. 1067 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | winedevic 1070 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | plugplay. 1080 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | svchost.e 1086 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | winedevic 1093 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | UnityCras 1113 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | explorer. 1115 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | rpcss.exe 1122 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  | lsof      1142 root  0u   CHR    1,3      0t0    9 /dev/null
+valheim_server-1  |  
+valheim_server-1  | NTSYNC Module is present in kernel, ntsync is running.
+valheim_server-1  |  
+valheim_server-1  | Fallback handler could not load library Z:/root/valheim-server/valheim_server_Data/MonoBleedingEdge/data-000000002300A910.dll
+valheim_server-1  | Fallback handler could not load library Z:/root/valheim-server/valheim_server_Data/MonoBleedingEdge/data-0000000028830040.dll
+valheim_server-1  | [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+valheim_server-1  | Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+valheim_server-1  | [Subsystems] Discovering subsystems at path Z:/root/valheim-server/valheim_server_Data/UnitySubsystems
+valheim_server-1  | Forcing GfxDevice: Null
+valheim_server-1  | GfxDevice: creating device client; threaded=0; jobified=0
+valheim_server-1  | NullGfxDevice:
+valheim_server-1  |     Version:  NULL 1.0 [1.0]
+valheim_server-1  |     Renderer: Null Device
+valheim_server-1  |     Vendor:   Unity Technologies
+valheim_server-1  | Begin MonoManager ReloadAssembly
+valheim_server-1  | - Loaded All Assemblies, in  0.429 seconds
+valheim_server-1  | - Finished resetting the current domain, in  0.011 seconds
+valheim_server-1  | ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+valheim_server-1  | ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | There is no texture data available to upload.
+valheim_server-1  | [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+valheim_server-1  | UnloadTime: 30.164500 ms
+valheim_server-1  | 07/17/2025 03:30:09: Set background loading budget to Low
+valheim_server-1  | 07/17/2025 03:30:09: Loading first scene
+valheim_server-1  | [Message:   BepInEx] BepInEx 5.4.22.0 - valheim_server (7/17/2025 3:28:47 AM)
+valheim_server-1  | [Message:   BepInEx] User is running BepInExPack Valheim version 5.4.2202 from Thunderstore
+valheim_server-1  | [Info   :   BepInEx] Running under Unity v2022.3.50.12835711
+valheim_server-1  | [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+valheim_server-1  | [Info   :   BepInEx] Supports SRE: True
+valheim_server-1  | [Info   :   BepInEx] System platform: Bits64, Windows
+valheim_server-1  | [Message:   BepInEx] Preloader started
+valheim_server-1  | [Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+valheim_server-1  | [Info   :   BepInEx] 1 patcher plugin loaded
+valheim_server-1  | [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+valheim_server-1  | [Message:   BepInEx] Preloader finished
+valheim_server-1  | Fallback handler could not load library Z:/root/valheim-server/valheim_server_Data/MonoBleedingEdge/data-000000002BFBD8B0.dll
+valheim_server-1  | ERROR: Shader TextMeshPro/Mobile/Distance Field shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'TextMeshPro/Distance Field' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader TextMeshPro/Distance Field shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'TextMeshPro/Distance Field' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | Unloading 4 Unused Serialized files (Serialized files now loaded: 8)
+valheim_server-1  | [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+valheim_server-1  | UnloadTime: 5.464400 ms
+valheim_server-1  | ERROR: Shader TextMeshPro/Mobile/Distance Field shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | 07/17/2025 03:30:21: Fetching PlatformPrefs 'GuiScale' before loading defaults
+valheim_server-1  | 07/17/2025 03:30:21: Fetching PlatformPrefs 'GuiScale' before loading defaults
+valheim_server-1  | 07/17/2025 03:30:21: Fetching PlatformPrefs 'ControllerLayout' before loading defaults
+valheim_server-1  | 07/17/2025 03:30:21: Initializing loading indicator instance
+valheim_server-1  | Unloading 173 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+valheim_server-1  | Total: 64.684600 ms (FindLiveObjects: 1.575700 ms CreateObjectMapping: 0.353700 ms MarkObjects: 58.986800 ms  DeleteObjects: 3.609000 ms)
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:21: Starting to load scene:start.unity (169d7618616154c03be07e9ad3af5893)
+valheim_server-1  | 07/17/2025 03:30:21: Set background loading budget to Normal
+valheim_server-1  | 07/17/2025 03:30:22: Loaded localization file #0 - 'localization' language: 'English'
+valheim_server-1  | 07/17/2025 03:30:22: Loaded localization file #1 - 'localization_extra' language: 'English'
+valheim_server-1  | 07/17/2025 03:30:22: Loaded localization file #2 - 'heightmap_message' language: 'English'
+valheim_server-1  | 07/17/2025 03:30:22: Loaded localization file #3 - 'localization_witch' language: 'English'
+valheim_server-1  | 07/17/2025 03:30:22: Loaded localization file #4 - 'localization_emotes' language: 'English'
+valheim_server-1  | 07/17/2025 03:30:22: Loaded localization file #5 - 'localization_ashlands' language: 'English'
+valheim_server-1  | 07/17/2025 03:30:22: Loaded localization file #6 - 'localization_captions' language: 'English'
+valheim_server-1  | Couldn't create a Convex Mesh from source mesh "default" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+valheim_server-1  | 07/17/2025 03:30:26: Set background loading budget to High
+valheim_server-1  | The referenced script on this Behaviour (Game Object '<null>') is missing!
+valheim_server-1  | Couldn't create a Convex Mesh from source mesh "default" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+valheim_server-1  | The referenced script on this Behaviour (Game Object '<null>') is missing!
+valheim_server-1  | The referenced script on this Behaviour (Game Object '<null>') is missing!
+valheim_server-1  | Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
+valheim_server-1  | ERROR: Shader Hidden/RadialSegementShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Blob' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Blob shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Blob' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Mesh Flipbook Particle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Unlit/Color shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Custom/FlowOpaque shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Grass' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Grass shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Grass' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/WaterMask' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/WaterMask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/WaterMask' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Decal shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Particles/Standard Unlit2' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Particles/Standard Unlit2 shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Particles/Standard Unlit2' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Heightmap' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Heightmap shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Heightmap' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Rug shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Custom/AlphaParticle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Custom/Gradient Mapped Particle (Unlit) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Trilinearmap' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Trilinearmap shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Trilinearmap' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Legacy Shaders/Particles/Alpha Blended shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Custom/Flow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Custom/LitGui shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Particles/Standard Surface2' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Particles/Standard Surface2 shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Particles/Standard Surface2' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/LitParticles' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/LitParticles shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/LitParticles' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Creature shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Custom/GuiScroll shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Lux Lit Particles/ Bumped shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Player' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Player shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Player' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Piece shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Custom/ParticleDecal shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Bonemass' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Bonemass shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Bonemass' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Unlit/BeaconBeam shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Unlit/Lighting shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Distortion' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Distortion shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Distortion' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Autodesk Interactive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Standard (Specular setup) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader UI/Heat Distort shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Yggdrasil_root' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Yggdrasil_root shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Yggdrasil_root' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Particles/Standard Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Lux Lit Particles/ Tess Bumped shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Unlit/Invis shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Vegetation' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Vegetation shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Vegetation' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/StaticRock shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/SkyObject' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/SkyObject shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/SkyObject' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Clouds' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Clouds shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Clouds' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Standard TwoSided' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Standard TwoSided shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Standard TwoSided' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader TextMeshPro/Distance Field (Surface) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Custom/Particle (Unlit) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Custom/Tar shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Water' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Water shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Water' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/ShadowBlob' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/ShadowBlob shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/ShadowBlob' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Unlit/WeaponGlow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | 07/17/2025 03:30:35: Destroying loading indicator instance
+valheim_server-1  | 07/17/2025 03:30:35: Set background loading budget to Low
+valheim_server-1  | [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+valheim_server-1  | UnloadTime: 41.093900 ms
+valheim_server-1  | Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+valheim_server-1  | HDR Render Texture not supported, disabling HDR on reflection probe.
+valheim_server-1  | 07/17/2025 03:30:35: Missing audio clip in music respawn
+valheim_server-1  | 07/17/2025 03:30:35: Setting -savedir to: /root/.config/unity3d/IronGate/Valheim
+valheim_server-1  | 07/17/2025 03:30:35: Get create world tsx_world
+valheim_server-1  | 07/17/2025 03:30:35:  creating
+valheim_server-1  | 07/17/2025 03:30:35: Considering autobackup. World time: 0, short time: 7200, long time: 43200, backup count: 4
+valheim_server-1  | 07/17/2025 03:30:35: Creating first autobackup
+valheim_server-1  | 07/17/2025 03:30:35: Saving backup at: tsx_world_backup_auto-20250717033035
+valheim_server-1  | now checking https://ipinfo.io/ip/
+valheim_server-1  | 07/17/2025 03:30:36: Using environment steamid 892970
+valheim_server-1  | 07/17/2025 03:30:36: Using steam APPID:892970
+valheim_server-1  | [[31mBOX64[0m] Warning, function my_glDebugMessageCallbackARB not found
+valheim_server-1  | [[31mBOX64[0m] Warning, function my_glDebugMessageCallbackARB not found
+valheim_server-1  | [[31mBOX64[0m] Warning, function my_glDebugMessageCallbackARB not found
+valheim_server-1  | [[31mBOX64[0m] Warning, function my_glDebugMessageCallbackARB not found
+valheim_server-1  | Setting breakpad minidump AppID = 892970
+valheim_server-1  | SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561197960265728 [API loaded no]
+valheim_server-1  | 07/17/2025 03:30:38: Server ID 90071992547409920
+valheim_server-1  | 07/17/2025 03:30:38: Authentication:k_ESteamNetworkingAvailability_Waiting
+valheim_server-1  | 07/17/2025 03:30:38: Steam game server initialized
+valheim_server-1  | 07/17/2025 03:30:38: Using default prefs
+valheim_server-1  | 07/17/2025 03:30:38: Valheim version: 0.220.5 (network version 34)
+valheim_server-1  | Trying to set graphic mode to 'Custom'
+valheim_server-1  | Graphic mode 'Custom' applied!
+valheim_server-1  | 07/17/2025 03:30:38: Worldgenerator version setup:2
+valheim_server-1  | 07/17/2025 03:30:38: Console: [Info   : Unity Log] 07/17/2025 03:30:38: Console: Valheim 0.220.5 (network version 34)
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:38: Console: Valheim 0.220.5 (network version 34)
+valheim_server-1  | 07/17/2025 03:30:38: Console: [Info   : Unity Log] 07/17/2025 03:30:38: Console: 
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:38: Console: 
+valheim_server-1  | 07/17/2025 03:30:38: Console: [Info   : Unity Log] 07/17/2025 03:30:38: Console: type "help" - for commands
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:38: Console: type "help" - for commands
+valheim_server-1  | 07/17/2025 03:30:38: Console: [Info   : Unity Log] 07/17/2025 03:30:38: Console: 
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:38: Console: 
+valheim_server-1  | 07/17/2025 03:30:38: Console: [Info   : Unity Log] 07/17/2025 03:30:38: Render threading mode:SingleThreaded
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:38: Render threading mode:SingleThreaded
+valheim_server-1  | ERROR: Shader UI/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | Found ipv4 address to be 34.1.225.91
+valheim_server-1  | 07/17/2025 03:30:39: Builder started
+valheim_server-1  | 07/17/2025 03:30:40: Console: [Info   : Unity Log] 07/17/2025 03:30:40: Sending PlayFab login request (attempt 1)
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:40: Sending PlayFab login request (attempt 1)
+valheim_server-1  | 07/17/2025 03:30:40: Console: [Info   : Unity Log] 07/17/2025 03:30:40: Login postponed until ID has been set.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:40: Login postponed until ID has been set.
+valheim_server-1  | 07/17/2025 03:30:40: Console: [Info   : Unity Log] The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+valheim_server-1  | The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+valheim_server-1  | 07/17/2025 03:30:40: Console: [Warning: Unity Log] The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+valheim_server-1  | The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+valheim_server-1  | 07/17/2025 03:30:40: Console: [Info   : Unity Log] The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+valheim_server-1  | The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+valheim_server-1  | 07/17/2025 03:30:40: Console: [Info   : Unity Log] The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+valheim_server-1  | The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+valheim_server-1  | 07/17/2025 03:30:40: Console: [Warning: Unity Log] The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+valheim_server-1  | The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+valheim_server-1  | 07/17/2025 03:30:40: Console: [Info   : Unity Log] 07/17/2025 03:30:40: Starting music menu
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:40: Starting music menu
+valheim_server-1  | 07/17/2025 03:30:40: Console: [Info   : Unity Log] 07/17/2025 03:30:40: Game server connected
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:40: Game server connected
+valheim_server-1  | WARNING: Shader Unsupported: 'TextMeshPro/Distance Field' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader TextMeshPro/Distance Field shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'TextMeshPro/Distance Field' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader TextMeshPro/Sprite shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | Unloading 87559 unused Assets to reduce memory usage. Loaded Objects now: 200304.
+valheim_server-1  | Total: 498.594900 ms (FindLiveObjects: 29.420400 ms CreateObjectMapping: 48.261200 ms MarkObjects: 344.567700 ms  DeleteObjects: 76.342000 ms)
+valheim_server-1  | 
+valheim_server-1  | The referenced script on this Behaviour (Game Object '<null>') is missing!
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Yggdrasil' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/Yggdrasil shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/Yggdrasil' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Unlit/DepthWrite shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader UI/Lava Indicator shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader UI/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'UI/Unlit/Transparent' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'UI/Unlit/Transparent' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/UI_BGBlur' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/UI_BGBlur shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/UI_BGBlur' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/WaterBottom' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/WaterBottom shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | WARNING: Shader Unsupported: 'Custom/WaterBottom' - All subshaders removed
+valheim_server-1  | WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+valheim_server-1  | WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+valheim_server-1  | ERROR: Shader Custom/mapshader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Hidden/RadialCutoutShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | ERROR: Shader Custom/icon shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+valheim_server-1  | Unloading 3 Unused Serialized files (Serialized files now loaded: 17)
+valheim_server-1  | [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+valheim_server-1  | UnloadTime: 99.560300 ms
+valheim_server-1  | HDR Render Texture not supported, disabling HDR on reflection probe.
+valheim_server-1  | HDR Render Texture not supported, disabling HDR on reflection probe.
+valheim_server-1  | 07/17/2025 03:30:43: Audioman already exist, destroying self
+valheim_server-1  | src\clientdll\cminterface.cpp (2124) : !BLoggedOn()
+valheim_server-1  | 07/17/2025 03:30:43: Using default prefs
+valheim_server-1  | 07/17/2025 03:30:43: Console: [Info   : Unity Log] 07/17/2025 03:30:43: Console: Valheim 0.220.5 (network version 34)
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:43: Console: Valheim 0.220.5 (network version 34)
+valheim_server-1  | 07/17/2025 03:30:43: Console: [Info   : Unity Log] 07/17/2025 03:30:43: Console: 
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:43: Console: 
+valheim_server-1  | 07/17/2025 03:30:43: Console: [Info   : Unity Log] 07/17/2025 03:30:43: Console: type "help" - for commands
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:43: Console: type "help" - for commands
+valheim_server-1  | 07/17/2025 03:30:43: Console: [Info   : Unity Log] 07/17/2025 03:30:43: Console: 
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:43: Console: 
+valheim_server-1  | 07/17/2025 03:30:43: Console: [Info   : Unity Log] 07/17/2025 03:30:43: isModded: True
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:43: isModded: True
+valheim_server-1  | 07/17/2025 03:30:43: Console: [Info   : Unity Log] 07/17/2025 03:30:43: Zonesystem Awake 39707
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:43: Zonesystem Awake 39707
+valheim_server-1  | 07/17/2025 03:30:43: Console: [Info   : Unity Log] 07/17/2025 03:30:43: DungeonDB Awake 39707
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:43: DungeonDB Awake 39707
+valheim_server-1  | 07/17/2025 03:30:43: Console: [Info   : Unity Log] 07/17/2025 03:30:43: Worldgenerator version setup:2
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:43: Worldgenerator version setup:2
+valheim_server-1  | 07/17/2025 03:30:48: Console: [Error  : Unity Log] ArgumentNullException: Value cannot be null.
+valheim_server-1  | Parameter name: shader
+valheim_server-1  | Stack trace:
+valheim_server-1  | UnityEngine.Material..ctor (UnityEngine.Shader shader) (at <be2cce08ca774b9684099a81093ecac0>:0)
+valheim_server-1  | ShieldDomeImageEffect.Awake () (at <3010fc8a59ca4a148d75078e7ac62b22>:0)
+valheim_server-1  | 
+valheim_server-1  | ArgumentNullException: Value cannot be null.
+valheim_server-1  | Parameter name: shader
+valheim_server-1  |   at (wrapper managed-to-native) UnityEngine.Material.CreateWithShader(UnityEngine.Material,UnityEngine.Shader)
+valheim_server-1  |   at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00008] in <be2cce08ca774b9684099a81093ecac0>:0 
+valheim_server-1  |   at ShieldDomeImageEffect.Awake () [0x0000b] in <3010fc8a59ca4a148d75078e7ac62b22>:0 
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Console: /w [text] - Whisper
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Console: /w [text] - Whisper
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Console: /s [text] - Shout
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Console: /s [text] - Shout
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Console: /die - Kill yourself
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Console: /die - Kill yourself
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Console: /resetspawn - Reset spawn point
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Console: /resetspawn - Reset spawn point
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Console: /[emote]
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Console: /[emote]
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Console: 
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Console: 
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Console: [Info   :Server Devcommands] Importing 1 bind data.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   :Server Devcommands] Importing 1 bind data.
+valheim_server-1  | Unloading 370 unused Assets to reduce memory usage. Loaded Objects now: 199153.
+valheim_server-1  | Total: 216.554100 ms (FindLiveObjects: 19.321400 ms CreateObjectMapping: 32.004300 ms MarkObjects: 163.331000 ms  DeleteObjects: 1.895400 ms)
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Zonesystem Start 39707
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Zonesystem Start 39707
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups, 0 clutter  from main
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups, 0 clutter  from main
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Added 1 locations, 0 vegetations, 2 environments, 0 biome env-setups, 0 clutter  from main
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Added 1 locations, 0 vegetations, 2 environments, 0 biome env-setups, 0 clutter  from main
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Added 27 locations, 25 vegetations, 5 environments, 1 biome env-setups, 3 clutter  from main
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Added 27 locations, 25 vegetations, 5 environments, 1 biome env-setups, 3 clutter  from main
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Added 4 locations, 0 vegetations, 1 environments, 0 biome env-setups, 0 clutter  from main
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Added 4 locations, 0 vegetations, 1 environments, 0 biome env-setups, 0 clutter  from main
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: Added 25 locations, 33 vegetations, 8 environments, 2 biome env-setups, 2 clutter  from main
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: Added 25 locations, 33 vegetations, 8 environments, 2 biome env-setups, 2 clutter  from main
+valheim_server-1  | 07/17/2025 03:30:49: Console: [Info   : Unity Log] 07/17/2025 03:30:49: DungeonDB Start 39707
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:49: DungeonDB Start 39707
+valheim_server-1  | 07/17/2025 03:30:50: Console: [Info   : Unity Log] 07/17/2025 03:30:50: ZRpc timeout set to 30s 
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:50: ZRpc timeout set to 30s 
+valheim_server-1  | 07/17/2025 03:30:50: Console: [Info   : Unity Log] 07/17/2025 03:30:50: ZNET START
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:50: ZNET START
+valheim_server-1  | 07/17/2025 03:30:50: Console: [Info   : Unity Log] 07/17/2025 03:30:50: Load world: tsx_world (tsx_world)
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:50: Load world: tsx_world (tsx_world)
+valheim_server-1  | 07/17/2025 03:30:50: Console: [Info   : Unity Log] 07/17/2025 03:30:50:   missing /root/.config/unity3d/IronGate/Valheim/worlds_local/tsx_world.db
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:50:   missing /root/.config/unity3d/IronGate/Valheim/worlds_local/tsx_world.db
+valheim_server-1  | 07/17/2025 03:30:50: Console: [Info   : Unity Log] The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+valheim_server-1  | The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+valheim_server-1  | 07/17/2025 03:30:50: Console: [Warning: Unity Log] The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+valheim_server-1  | The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+valheim_server-1  | 07/17/2025 03:30:50: Console: [Info   : Unity Log] The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+valheim_server-1  | The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+valheim_server-1  | 07/17/2025 03:30:50: Console: [Info   : Unity Log] The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+valheim_server-1  | The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+valheim_server-1  | 07/17/2025 03:30:50: Console: [Warning: Unity Log] The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+valheim_server-1  | The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+valheim_server-1  | 07/17/2025 03:30:50: Console: [Info   : Unity Log] Am I Host? True
+valheim_server-1  | Am I Host? True
+valheim_server-1  | 07/17/2025 03:30:50: Console: [Info   : Unity Log] 07/17/2025 03:30:50: Console: [Info   :Server Devcommands] Reloading 0 bind data.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:50: Console: [Info   :Server Devcommands] Reloading 0 bind data.
+valheim_server-1  | 07/17/2025 03:30:51: Console: [Info   : Unity Log] 07/17/2025 03:30:51: Setting up generating loading indicator
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:51: Setting up generating loading indicator
+valheim_server-1  | 07/17/2025 03:30:51: Console: [Error  : Unity Log] 07/17/2025 03:30:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:30:51: Console: [Error  : Unity Log] 07/17/2025 03:30:51: No instance when setting text! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:51: No instance when setting text! Ignoring.
+valheim_server-1  | 07/17/2025 03:30:51: Console: [Info   : Unity Log] 07/17/2025 03:30:51: Generating locations
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:51: Generating locations
+valheim_server-1  | 07/17/2025 03:30:51: Console: [Error  : Unity Log] 07/17/2025 03:30:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:30:51: Console: [Error  : Unity Log] 07/17/2025 03:30:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:30:51: Console: [Error  : Unity Log] 07/17/2025 03:30:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:30:51: Console: [Error  : Unity Log] 07/17/2025 03:30:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:30:51: Console: [Error  : Unity Log] 07/17/2025 03:30:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:30:53: Console: [Error  : Unity Log] 07/17/2025 03:30:53: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:53: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:30:53: Console: [Error  : Unity Log] 07/17/2025 03:30:53: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:53: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:30:53: Console: [Error  : Unity Log] 07/17/2025 03:30:53: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:30:53: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:31:16: Console: [Error  : Unity Log] 07/17/2025 03:31:16: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:31:16: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:31:45: Console: [Error  : Unity Log] 07/17/2025 03:31:45: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:31:45: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:31:45: Console: [Error  : Unity Log] 07/17/2025 03:31:45: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:31:45: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:31:47: Console: [Error  : Unity Log] 07/17/2025 03:31:47: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:31:47: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:31:47: Console: [Error  : Unity Log] 07/17/2025 03:31:47: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:31:47: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:31:47: Console: [Error  : Unity Log] 07/17/2025 03:31:47: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:31:47: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:31:59: Console: [Error  : Unity Log] 07/17/2025 03:31:59: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:31:59: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:00: Console: [Error  : Unity Log] 07/17/2025 03:32:00: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:00: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:00: Console: [Error  : Unity Log] 07/17/2025 03:32:00: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:00: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:12: Console: [Error  : Unity Log] 07/17/2025 03:32:12: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:12: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:12: Console: [Error  : Unity Log] 07/17/2025 03:32:12: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:12: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:12: Console: [Error  : Unity Log] 07/17/2025 03:32:12: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:12: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:12: Console: [Error  : Unity Log] 07/17/2025 03:32:12: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:12: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:15: Console: [Error  : Unity Log] 07/17/2025 03:32:15: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:15: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:21: Console: [Error  : Unity Log] 07/17/2025 03:32:21: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:21: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:21: Console: [Error  : Unity Log] 07/17/2025 03:32:21: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:21: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:21: Console: [Error  : Unity Log] 07/17/2025 03:32:21: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:21: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:23: Console: [Error  : Unity Log] 07/17/2025 03:32:23: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:23: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:23: Console: [Error  : Unity Log] 07/17/2025 03:32:23: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:23: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:26: Console: [Error  : Unity Log] 07/17/2025 03:32:26: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:26: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:27: Console: [Error  : Unity Log] 07/17/2025 03:32:27: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:27: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:34: Console: [Warning: Unity Log] 07/17/2025 03:32:34: Failed to place all SwampRuin2, placed 26 out of 30
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:34: Failed to place all SwampRuin2, placed 26 out of 30
+valheim_server-1  | 07/17/2025 03:32:34: Console: [Error  : Unity Log] 07/17/2025 03:32:34: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:34: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:36: Console: [Error  : Unity Log] 07/17/2025 03:32:36: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:36: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:37: Console: [Error  : Unity Log] 07/17/2025 03:32:37: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:37: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:39: Console: [Error  : Unity Log] 07/17/2025 03:32:39: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:39: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:39: Console: [Error  : Unity Log] 07/17/2025 03:32:39: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:39: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:40: Console: [Error  : Unity Log] 07/17/2025 03:32:40: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:40: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:40: Console: [Error  : Unity Log] 07/17/2025 03:32:40: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:40: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:40: Console: [Error  : Unity Log] 07/17/2025 03:32:40: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:40: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:41: Console: [Error  : Unity Log] 07/17/2025 03:32:41: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:41: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:32:58: Console: [Error  : Unity Log] 07/17/2025 03:32:58: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:32:58: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:00: Console: [Error  : Unity Log] 07/17/2025 03:33:00: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:00: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:06: Console: [Error  : Unity Log] 07/17/2025 03:33:06: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:06: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:07: Console: [Error  : Unity Log] 07/17/2025 03:33:07: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:07: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:07: Console: [Error  : Unity Log] 07/17/2025 03:33:07: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:07: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:07: Console: [Error  : Unity Log] 07/17/2025 03:33:07: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:07: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:08: Console: [Error  : Unity Log] 07/17/2025 03:33:08: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:08: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:08: Console: [Error  : Unity Log] 07/17/2025 03:33:08: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:08: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:08: Console: [Error  : Unity Log] 07/17/2025 03:33:08: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:08: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:08: Console: [Error  : Unity Log] 07/17/2025 03:33:08: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:08: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:08: Console: [Error  : Unity Log] 07/17/2025 03:33:08: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:08: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:08: Console: [Error  : Unity Log] 07/17/2025 03:33:08: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:08: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:09: Console: [Error  : Unity Log] 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:09: Console: [Error  : Unity Log] 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:09: Console: [Error  : Unity Log] 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:09: Console: [Error  : Unity Log] 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:09: Console: [Error  : Unity Log] 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:09: Console: [Error  : Unity Log] 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:09: Console: [Error  : Unity Log] 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:10: Console: [Error  : Unity Log] 07/17/2025 03:33:10: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:10: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:10: Console: [Error  : Unity Log] 07/17/2025 03:33:10: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:10: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:10: Console: [Error  : Unity Log] 07/17/2025 03:33:10: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:10: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:10: Console: [Error  : Unity Log] 07/17/2025 03:33:10: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:10: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:12: Console: [Error  : Unity Log] 07/17/2025 03:33:12: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:12: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:18: Console: [Error  : Unity Log] 07/17/2025 03:33:18: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:18: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:18: Console: [Error  : Unity Log] 07/17/2025 03:33:18: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:18: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:18: Console: [Error  : Unity Log] 07/17/2025 03:33:18: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:18: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:18: Console: [Error  : Unity Log] 07/17/2025 03:33:18: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:18: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:21: Console: [Error  : Unity Log] 07/17/2025 03:33:21: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:21: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:29: Console: [Error  : Unity Log] 07/17/2025 03:33:29: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:29: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:31: Console: [Error  : Unity Log] 07/17/2025 03:33:31: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:31: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:31: Console: [Error  : Unity Log] 07/17/2025 03:33:31: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:31: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:35: Console: [Error  : Unity Log] 07/17/2025 03:33:35: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:35: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:39: Console: [Error  : Unity Log] 07/17/2025 03:33:39: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:39: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:40: Console: [Error  : Unity Log] 07/17/2025 03:33:40: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:40: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:40: Console: [Error  : Unity Log] 07/17/2025 03:33:40: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:40: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:41: Console: [Error  : Unity Log] 07/17/2025 03:33:41: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:41: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:42: Console: [Error  : Unity Log] 07/17/2025 03:33:42: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:42: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:48: Console: [Error  : Unity Log] 07/17/2025 03:33:48: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:48: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:49: Console: [Error  : Unity Log] 07/17/2025 03:33:49: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:49: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:50: Console: [Error  : Unity Log] 07/17/2025 03:33:50: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:50: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:51: Console: [Error  : Unity Log] 07/17/2025 03:33:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:51: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:53: Console: [Error  : Unity Log] 07/17/2025 03:33:53: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:53: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:33:56: Console: [Error  : Unity Log] 07/17/2025 03:33:56: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:33:56: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:06: Console: [Error  : Unity Log] 07/17/2025 03:34:06: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:06: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:09: Console: [Error  : Unity Log] 07/17/2025 03:34:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:09: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:10: Console: [Error  : Unity Log] 07/17/2025 03:34:10: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:10: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:10: Console: [Error  : Unity Log] 07/17/2025 03:34:10: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:10: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:12: Console: [Error  : Unity Log] 07/17/2025 03:34:12: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:12: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:15: Console: [Error  : Unity Log] 07/17/2025 03:34:15: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:15: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:21: Console: [Error  : Unity Log] 07/17/2025 03:34:21: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:21: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:23: Console: [Error  : Unity Log] 07/17/2025 03:34:23: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:23: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:23: Console: [Error  : Unity Log] 07/17/2025 03:34:23: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:23: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:34: Console: [Error  : Unity Log] 07/17/2025 03:34:34: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:34: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:35: Console: [Error  : Unity Log] 07/17/2025 03:34:35: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:35: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:35: Console: [Error  : Unity Log] 07/17/2025 03:34:35: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:35: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:35: Console: [Error  : Unity Log] 07/17/2025 03:34:35: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:35: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:38: Console: [Error  : Unity Log] 07/17/2025 03:34:38: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:38: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:39: Console: [Error  : Unity Log] 07/17/2025 03:34:39: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:39: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:42: Console: [Error  : Unity Log] 07/17/2025 03:34:42: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:42: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:43: Console: [Error  : Unity Log] 07/17/2025 03:34:43: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:43: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:55: Console: [Warning: Unity Log] 07/17/2025 03:34:55: Failed to place all Runestone_Mountains, placed 98 out of 100
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:55: Failed to place all Runestone_Mountains, placed 98 out of 100
+valheim_server-1  | 07/17/2025 03:34:55: Console: [Error  : Unity Log] 07/17/2025 03:34:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:55: Console: [Error  : Unity Log] 07/17/2025 03:34:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:34:55: Console: [Error  : Unity Log] 07/17/2025 03:34:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:34:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:04: Console: [Warning: Unity Log] 07/17/2025 03:35:04: Failed to place all TarPit1, placed 81 out of 100
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:04: Failed to place all TarPit1, placed 81 out of 100
+valheim_server-1  | 07/17/2025 03:35:04: Console: [Error  : Unity Log] 07/17/2025 03:35:04: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:04: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:13: Console: [Warning: Unity Log] 07/17/2025 03:35:13: Failed to place all TarPit2, placed 11 out of 100
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:13: Failed to place all TarPit2, placed 11 out of 100
+valheim_server-1  | 07/17/2025 03:35:13: Console: [Error  : Unity Log] 07/17/2025 03:35:13: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:13: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:22: Console: [Warning: Unity Log] 07/17/2025 03:35:22: Failed to place all TarPit3, placed 95 out of 100
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:22: Failed to place all TarPit3, placed 95 out of 100
+valheim_server-1  | 07/17/2025 03:35:22: Console: [Error  : Unity Log] 07/17/2025 03:35:22: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:22: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:42: Console: [Warning: Unity Log] 07/17/2025 03:35:42: Failed to place all MountainCave02, placed 118 out of 160
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:42: Failed to place all MountainCave02, placed 118 out of 160
+valheim_server-1  | 07/17/2025 03:35:42: Console: [Error  : Unity Log] 07/17/2025 03:35:42: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:42: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:42: Console: [Error  : Unity Log] 07/17/2025 03:35:42: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:42: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:43: Console: [Error  : Unity Log] 07/17/2025 03:35:43: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:43: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:43: Console: [Error  : Unity Log] 07/17/2025 03:35:43: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:43: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:44: Console: [Error  : Unity Log] 07/17/2025 03:35:44: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:44: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:45: Console: [Error  : Unity Log] 07/17/2025 03:35:45: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:45: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:45: Console: [Error  : Unity Log] 07/17/2025 03:35:45: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:45: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:47: Console: [Error  : Unity Log] 07/17/2025 03:35:47: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:47: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:49: Console: [Error  : Unity Log] 07/17/2025 03:35:49: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:49: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:52: Console: [Error  : Unity Log] 07/17/2025 03:35:52: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:52: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:52: Console: [Error  : Unity Log] 07/17/2025 03:35:52: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:52: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:53: Console: [Error  : Unity Log] 07/17/2025 03:35:53: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:53: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:53: Console: [Error  : Unity Log] 07/17/2025 03:35:53: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:53: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:54: Console: [Error  : Unity Log] 07/17/2025 03:35:54: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:54: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:54: Console: [Error  : Unity Log] 07/17/2025 03:35:54: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:54: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:55: Console: [Error  : Unity Log] 07/17/2025 03:35:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:55: Console: [Error  : Unity Log] 07/17/2025 03:35:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:55: Console: [Error  : Unity Log] 07/17/2025 03:35:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:56: Console: [Error  : Unity Log] 07/17/2025 03:35:56: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:56: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:56: Console: [Error  : Unity Log] 07/17/2025 03:35:56: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:56: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:56: Console: [Error  : Unity Log] 07/17/2025 03:35:56: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:56: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:56: Console: [Error  : Unity Log] 07/17/2025 03:35:56: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:56: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:35:56: Console: [Error  : Unity Log] 07/17/2025 03:35:56: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:35:56: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:36:55: Console: [Warning: Unity Log] 07/17/2025 03:36:55: Failed to place all FortressRuins, placed 83 out of 100
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:36:55: Failed to place all FortressRuins, placed 83 out of 100
+valheim_server-1  | 07/17/2025 03:36:55: Console: [Error  : Unity Log] 07/17/2025 03:36:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:36:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:36:57: Console: [Error  : Unity Log] 07/17/2025 03:36:57: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:36:57: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:36:58: Console: [Error  : Unity Log] 07/17/2025 03:36:58: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:36:58: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:37:03: Console: [Error  : Unity Log] 07/17/2025 03:37:03: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:37:03: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:37:05: Console: [Error  : Unity Log] 07/17/2025 03:37:05: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:37:05: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:37:24: Console: [Error  : Unity Log] 07/17/2025 03:37:24: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:37:24: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:37:24: Console: [Error  : Unity Log] 07/17/2025 03:37:24: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:37:24: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:37:25: Console: [Error  : Unity Log] 07/17/2025 03:37:25: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:37:25: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:37:25: Console: [Error  : Unity Log] 07/17/2025 03:37:25: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:37:25: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:37:55: Console: [Warning: Unity Log] 07/17/2025 03:37:55: Failed to place all CharredTowerRuins3, placed 34 out of 40
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:37:55: Failed to place all CharredTowerRuins3, placed 34 out of 40
+valheim_server-1  | 07/17/2025 03:37:55: Console: [Error  : Unity Log] 07/17/2025 03:37:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:37:55: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:37:58: Console: [Error  : Unity Log] 07/17/2025 03:37:58: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:37:58: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:38:01: Console: [Error  : Unity Log] 07/17/2025 03:38:01: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:01: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:38:05: Console: [Error  : Unity Log] 07/17/2025 03:38:05: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:05: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:38:22: Console: [Error  : Unity Log] 07/17/2025 03:38:22: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:22: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:38:23: Console: [Error  : Unity Log] 07/17/2025 03:38:23: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:23: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:38:24: Console: [Error  : Unity Log] 07/17/2025 03:38:24: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:24: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:38:26: Console: [Error  : Unity Log] 07/17/2025 03:38:26: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:26: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:38:26: Console: [Error  : Unity Log] 07/17/2025 03:38:26: No instance when setting progress! Ignoring.
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:26: No instance when setting progress! Ignoring.
+valheim_server-1  | 07/17/2025 03:38:26: Console: [Info   : Unity Log] 07/17/2025 03:38:26: Registering lobby
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:26: Registering lobby
+valheim_server-1  | 07/17/2025 03:38:26: Console: [Info   : Unity Log] 07/17/2025 03:38:26: PlayFab custom ID set to "PlayFab_Valheim_Server_2456_7c9627b6d98fbc810308c072d077c921ab574218"
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:26: PlayFab custom ID set to "PlayFab_Valheim_Server_2456_7c9627b6d98fbc810308c072d077c921ab574218"
+valheim_server-1  | 07/17/2025 03:38:26: Console: [Info   : Unity Log] 07/17/2025 03:38:26: Sending PlayFab login request (attempt 2)
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:26: Sending PlayFab login request (attempt 2)
+valheim_server-1  | 07/17/2025 03:38:26: Console: [Info   : Unity Log] 07/17/2025 03:38:26: Semaphore type: SemaphoreSlim
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:26: Semaphore type: SemaphoreSlim
+valheim_server-1  | 07/17/2025 03:38:26: Console: [Info   : Unity Log] 07/17/2025 03:38:26: Opened PlayFab server
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:26: Opened PlayFab server
+valheim_server-1  | 07/17/2025 03:38:26: Console: [Info   : Unity Log] 07/17/2025 03:38:26:  Done generating locations, duration:455447.9665 ms
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:26:  Done generating locations, duration:455447.9665 ms
+valheim_server-1  | 07/17/2025 03:38:28: Console: [Info   : Unity Log] 07/17/2025 03:38:28: Logged in PlayFab user via custom ID
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:28: Logged in PlayFab user via custom ID
+valheim_server-1  | 07/17/2025 03:38:28: Console: [Info   : Unity Log] 07/17/2025 03:38:28: PlayFab logged in as "PlayFab_Valheim_Server_2456_7c9627b6d98fbc810308c072d077c921ab574218"
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:28: PlayFab logged in as "PlayFab_Valheim_Server_2456_7c9627b6d98fbc810308c072d077c921ab574218"
+valheim_server-1  | 07/17/2025 03:38:28: Console: [Info   : Unity Log] 07/17/2025 03:38:28: PlayFab local entity ID is 5B88DA0172826D51
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:28: PlayFab local entity ID is 5B88DA0172826D51
+valheim_server-1  | 07/17/2025 03:38:28: Console: [Info   : Unity Log] IPv4, returning 34.1.225.91:2456
+valheim_server-1  | IPv4, returning 34.1.225.91:2456
+valheim_server-1  | 07/17/2025 03:38:28: Console: [Info   : Unity Log] 07/17/2025 03:38:28: New session server "Valheim_Server" that has join code , now 0 player(s)
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:28: New session server "Valheim_Server" that has join code , now 0 player(s)
+valheim_server-1  | 07/17/2025 03:38:28: Console: [Info   : Unity Log] 07/17/2025 03:38:28: Register PlayFab server "Valheim_Server" with IP 34.1.225.91:2456
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:28: Register PlayFab server "Valheim_Server" with IP 34.1.225.91:2456
+valheim_server-1  | 07/17/2025 03:38:28: Console: [Info   : Unity Log] 07/17/2025 03:38:28: Server 'Valheim_Server' begin PlayFab create and join network for server 
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:28: Server 'Valheim_Server' begin PlayFab create and join network for server 
+valheim_server-1  | 07/17/2025 03:38:31: Console: [Info   : Unity Log] 07/17/2025 03:38:31: Joined PlayFab Party network with ID "3748eb2e-6be7-466e-8408-d43b086f74f6|AwA2v1PvOlMjMGMMPUGPi46+qEP9c1dlc3RFdXJvcGUAAAAAAAAAAAAAaHhOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwCk9kbnMtaXIwLTgxZTUtM2JmNGI2NmUtNjhhZS00MGZjLTg1MTgtZWFiZDJhZGY0Yzk3Lndlc3RldXJvcGUuY2xvdWRhcHAuYXp1cmUuY29t"
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:31: Joined PlayFab Party network with ID "3748eb2e-6be7-466e-8408-d43b086f74f6|AwA2v1PvOlMjMGMMPUGPi46+qEP9c1dlc3RFdXJvcGUAAAAAAAAAAAAAaHhOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwCk9kbnMtaXIwLTgxZTUtM2JmNGI2NmUtNjhhZS00MGZjLTg1MTgtZWFiZDJhZGY0Yzk3Lndlc3RldXJvcGUuY2xvdWRhcHAuYXp1cmUuY29t"
+valheim_server-1  | 07/17/2025 03:38:31: Console: [Info   : Unity Log] This is the serverIP used to register the server: 34.1.225.91:2456
+valheim_server-1  | This is the serverIP used to register the server: 34.1.225.91:2456
+valheim_server-1  | 07/17/2025 03:38:31: Console: [Info   : Unity Log] 07/17/2025 03:38:31: Created PlayFab lobby with ID "f8db74bd-7cd3-4d8c-b42b-58164d786e06.r-20230509", ConnectionString "cv2:f8db74bd-7cd3-4d8c-b42b-58164d786e06.r-20230509|451107|kv1:ANxZdwyiEoVEiSW935bAZCRr4tyqeMzRfbF6dbTF2zU=" and owned by "5B88DA0172826D51"
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:31: Created PlayFab lobby with ID "f8db74bd-7cd3-4d8c-b42b-58164d786e06.r-20230509", ConnectionString "cv2:f8db74bd-7cd3-4d8c-b42b-58164d786e06.r-20230509|451107|kv1:ANxZdwyiEoVEiSW935bAZCRr4tyqeMzRfbF6dbTF2zU=" and owned by "5B88DA0172826D51"
+valheim_server-1  | 07/17/2025 03:38:31: Console: [Info   : Unity Log] 07/17/2025 03:38:31: Session "Valheim_Server" registered with join code 963757
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:31: Session "Valheim_Server" registered with join code 963757
+valheim_server-1  | 07/17/2025 03:38:31: Console: [Info   : Unity Log] 07/17/2025 03:38:31: Created new join code 711855 for session "Valheim_Server"
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:31: Created new join code 711855 for session "Valheim_Server"
+valheim_server-1  | 07/17/2025 03:38:32: Console: [Info   : Unity Log] 07/17/2025 03:38:32: Session "Valheim_Server" with join code 711855 and IP 34.1.225.91:2456 is active with 0 player(s)
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:38:32: Session "Valheim_Server" with join code 711855 and IP 34.1.225.91:2456 is active with 0 player(s)
+valheim_server-1  | 07/17/2025 03:40:52: Console: [Info   : Unity Log] 07/17/2025 03:40:52:  Connections 0 ZDOS:81  sent:0 recv:0
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:40:52:  Connections 0 ZDOS:81  sent:0 recv:0
+valheim_server-1  | 
+valheim_server-1  | 2025-07-17 03:44:11,915 INFO: Recieved SIGTERM, shutting down gracefully
+valheim_server-1  | 07/17/2025 03:44:11: Console: [Info   : Unity Log] 07/17/2025 03:44:11: Game - OnApplicationQuit
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:44:11: Game - OnApplicationQuit
+valheim_server-1  | 07/17/2025 03:44:11: Console: [Info   : Unity Log] Am I Host? True
+valheim_server-1  | Am I Host? True
+valheim_server-1  | 07/17/2025 03:44:11: Console: [Info   : Unity Log] 07/17/2025 03:44:11: Available space to current user: 43023843328. Saving is blocked if below: 213909504 bytes. Warnings are given if below: 427819008
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:44:11: Available space to current user: 43023843328. Saving is blocked if below: 213909504 bytes. Warnings are given if below: 427819008
+valheim_server-1  | 07/17/2025 03:44:11: Console: [Info   : Unity Log] 07/17/2025 03:44:11: Shutting down
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:44:11: Shutting down
+valheim_server-1  | 07/17/2025 03:44:11: Console: [Info   : Unity Log] 07/17/2025 03:44:11: ZNet Shutdown
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:44:11: ZNet Shutdown
+valheim_server-1  | 07/17/2025 03:44:11: Console: [Info   : Unity Log] 07/17/2025 03:44:11: PrepareSave: clone done in 7ms
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:44:11: PrepareSave: clone done in 7ms
+valheim_server-1  | 07/17/2025 03:44:12: Console: [Info   : Unity Log] 07/17/2025 03:44:12: PrepareSave: ZDOExtraData.PrepareSave done in 43 ms
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:44:12: PrepareSave: ZDOExtraData.PrepareSave done in 43 ms
+valheim_server-1  | 07/17/2025 03:44:12: World save writing starting
+valheim_server-1  | 07/17/2025 03:44:12: World save writing started
+valheim_server-1  | 07/17/2025 03:44:12: Saved 81 ZDOs
+valheim_server-1  | 07/17/2025 03:44:12: World save writing finishing
+valheim_server-1  | 07/17/2025 03:44:12: World save writing finished
+valheim_server-1  | 07/17/2025 03:44:12: World saved ( 125ms )
+valheim_server-1  | 07/17/2025 03:44:12: Considering autobackup. World time: 799.68, short time: 7200, long time: 43200, backup count: 4
+valheim_server-1  | 07/17/2025 03:44:12: Skipping backup. World session not long enough.
+valheim_server-1  | 07/17/2025 03:44:12: Console: [Info   : Unity Log] 07/17/2025 03:44:12: Unloading unused assets
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:44:12: Unloading unused assets
+valheim_server-1  | Unloading 0 Unused Serialized files (Serialized files now loaded: 17)
+valheim_server-1  | 07/17/2025 03:44:12: Console: [Info   : Unity Log] 07/17/2025 03:44:12: Sending disconnect msg
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:44:12: Sending disconnect msg
+valheim_server-1  | 07/17/2025 03:44:12: Console: [Info   : Unity Log] ZPlayFabMatchmaking::UnregisterServer - unregistering server now. State: Active
+valheim_server-1  | ZPlayFabMatchmaking::UnregisterServer - unregistering server now. State: Active
+valheim_server-1  | 07/17/2025 03:44:12: Console: [Info   : Unity Log] 07/17/2025 03:44:12: Unregister PlayFab server "Valheim_Server" and leaving network "3748eb2e-6be7-466e-8408-d43b086f74f6|AwA2v1PvOlMjMGMMPUGPi46+qEP9c1dlc3RFdXJvcGUAAAAAAAAAAAAAaHhOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwCk9kbnMtaXIwLTgxZTUtM2JmNGI2NmUtNjhhZS00MGZjLTg1MTgtZWFiZDJhZGY0Yzk3Lndlc3RldXJvcGUuY2xvdWRhcHAuYXp1cmUuY29t"
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:44:12: Unregister PlayFab server "Valheim_Server" and leaving network "3748eb2e-6be7-466e-8408-d43b086f74f6|AwA2v1PvOlMjMGMMPUGPi46+qEP9c1dlc3RFdXJvcGUAAAAAAAAAAAAAaHhOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwCk9kbnMtaXIwLTgxZTUtM2JmNGI2NmUtNjhhZS00MGZjLTg1MTgtZWFiZDJhZGY0Yzk3Lndlc3RldXJvcGUuY2xvdWRhcHAuYXp1cmUuY29t"
+valheim_server-1  | 07/17/2025 03:44:12: Console: [Info   : Unity Log] ZPlayFabSocket::Dispose. State: LISTEN
+valheim_server-1  | ZPlayFabSocket::Dispose. State: LISTEN
+valheim_server-1  | 07/17/2025 03:44:12: Console: [Info   : Unity Log] ZPlayFabSocket::Dispose. leave lobby. LobbyId: 
+valheim_server-1  | ZPlayFabSocket::Dispose. leave lobby. LobbyId: 
+valheim_server-1  | 07/17/2025 03:44:12: Console: [Info   : Unity Log] ZPlayFabSocket::Dispose. State: CLOSED
+valheim_server-1  | ZPlayFabSocket::Dispose. State: CLOSED
+valheim_server-1  | 07/17/2025 03:44:12: Console: [Info   : Unity Log] 07/17/2025 03:44:12: Stopping build thread
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:44:12: Stopping build thread
+valheim_server-1  | Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 200061.
+valheim_server-1  | Total: 300.274300 ms (FindLiveObjects: 19.878400 ms CreateObjectMapping: 31.923000 ms MarkObjects: 247.476400 ms  DeleteObjects: 0.994100 ms)
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:44:15: Console: [Info   : Unity Log] 07/17/2025 03:44:15: Steam manager on destroy
+valheim_server-1  | 
+valheim_server-1  | 07/17/2025 03:44:15: Steam manager on destroy
+valheim_server-1  | src\clientdll\cminterface.cpp (2124) : !BLoggedOn()
+valheim_server-1  | 07/17/2025 03:44:15: ZNet OnDestroy
+valheim_server-1  | 07/17/2025 03:44:15: Net scene destroyed
+valheim_server-1  | Memory Statistics:
+valheim_server-1  | [ALLOC_TEMP_TLS] TLS Allocator
+valheim_server-1  |   StackAllocators : 
+valheim_server-1  |     [ALLOC_TEMP_MAIN]
+valheim_server-1  |       Peak usage frame count: [0-1.0 KB]: 39695 frames, [4.0 KB-8.0 KB]: 11679 frames, [8.0 KB-16.0 KB]: 4 frames, [16.0 KB-32.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 2920 frames, [128.0 KB-256.0 KB]: 1 frames, [256.0 KB-0.5 MB]: 83 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 2 frames
+valheim_server-1  |       Initial Block Size 4.0 MB
+valheim_server-1  |       Current Block Size 7.7 MB
+valheim_server-1  |       Peak Allocated Bytes 7.7 MB
+valheim_server-1  |       Overflow Count 9
+valheim_server-1  |     [ALLOC_TEMP_Loading.AsyncRead]
+valheim_server-1  |       Initial Block Size 64.0 KB
+valheim_server-1  |       Current Block Size 128.0 KB
+valheim_server-1  |       Peak Allocated Bytes 127.6 KB
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Loading.PreloadManager]
+valheim_server-1  |       Initial Block Size 256.0 KB
+valheim_server-1  |       Current Block Size 0.5 MB
+valheim_server-1  |       Peak Allocated Bytes 384.2 KB
+valheim_server-1  |       Overflow Count 266091
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 8]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 9]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Job.Worker 0]
+valheim_server-1  |       Initial Block Size 256.0 KB
+valheim_server-1  |       Current Block Size 256.0 KB
+valheim_server-1  |       Peak Allocated Bytes 88.3 KB
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 10]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 14]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 6]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 12]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_EnlightenWorker] x 2
+valheim_server-1  |       Initial Block Size 64.0 KB
+valheim_server-1  |       Current Block Size 64.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 15]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 1]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 19.5 KB
+valheim_server-1  |       Overflow Count 1
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 2]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 3.4 KB
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 7]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+valheim_server-1  |       Initial Block Size 64.0 KB
+valheim_server-1  |       Current Block Size 64.0 KB
+valheim_server-1  |       Peak Allocated Bytes 138 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 5]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 13]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Job.Worker 1]
+valheim_server-1  |       Initial Block Size 256.0 KB
+valheim_server-1  |       Current Block Size 256.0 KB
+valheim_server-1  |       Peak Allocated Bytes 88.3 KB
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Job.Worker 2]
+valheim_server-1  |       Initial Block Size 256.0 KB
+valheim_server-1  |       Current Block Size 256.0 KB
+valheim_server-1  |       Peak Allocated Bytes 88.3 KB
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 3]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 2.4 KB
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 11]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 0]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_Background Job.Worker 4]
+valheim_server-1  |       Initial Block Size 32.0 KB
+valheim_server-1  |       Current Block Size 32.0 KB
+valheim_server-1  |       Peak Allocated Bytes 252 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  |     [ALLOC_TEMP_BatchDeleteObjects]
+valheim_server-1  |       Initial Block Size 64.0 KB
+valheim_server-1  |       Current Block Size 64.0 KB
+valheim_server-1  |       Peak Allocated Bytes 54 B
+valheim_server-1  |       Overflow Count 0
+valheim_server-1  | [ALLOC_DEFAULT] Dual Thread Allocator
+valheim_server-1  |   Peak main deferred allocation count 4416
+valheim_server-1  |     [ALLOC_BUCKET]
+valheim_server-1  |       Large Block size 4.0 MB
+valheim_server-1  |       Used Block count 1
+valheim_server-1  |       Peak Allocated bytes 4.0 MB
+valheim_server-1  |       Failed Allocations. Bucket layout:
+valheim_server-1  |         16B: 2 Subsections = 2048 buckets. Failed count: 223265
+valheim_server-1  |         32B: 12 Subsections = 6144 buckets. Failed count: 99245
+valheim_server-1  |         48B: 28 Subsections = 9557 buckets. Failed count: 159158
+valheim_server-1  |         64B: 47 Subsections = 12032 buckets. Failed count: 161252
+valheim_server-1  |         80B: 44 Subsections = 9011 buckets. Failed count: 21237
+valheim_server-1  |         96B: 112 Subsections = 19114 buckets. Failed count: 41040
+valheim_server-1  |         112B: 6 Subsections = 877 buckets. Failed count: 6216
+valheim_server-1  |         128B: 5 Subsections = 640 buckets. Failed count: 110967
+valheim_server-1  |     [ALLOC_DEFAULT_MAIN]
+valheim_server-1  |       Peak usage frame count: [8.0 MB-16.0 MB]: 1 frames, [16.0 MB-32.0 MB]: 39637 frames, [32.0 MB-64.0 MB]: 67 frames, [64.0 MB-128.0 MB]: 14681 frames
+valheim_server-1  |       Requested Block Size 16.0 MB
+valheim_server-1  |       Peak Block count 5
+valheim_server-1  |       Peak Allocated memory 86.5 MB
+valheim_server-1  |       Peak Large allocation bytes 24.0 MB
+valheim_server-1  |     [ALLOC_DEFAULT_THREAD]
+valheim_server-1  |       Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 8163 frames, [16.0 MB-32.0 MB]: 3139 frames, [32.0 MB-64.0 MB]: 3266 frames, [64.0 MB-128.0 MB]: 7153 frames, [128.0 MB-256.0 MB]: 14771 frames, [256.0 MB-0.50 GB]: 17893 frames
+valheim_server-1  |       Requested Block Size 16.0 MB
+valheim_server-1  |       Peak Block count 19
+valheim_server-1  |       Peak Allocated memory 290.9 MB
+valheim_server-1  |       Peak Large allocation bytes 24.0 MB
+valheim_server-1  | [ALLOC_TEMP_JOB_1_FRAME]
+valheim_server-1  |   Initial Block Size 2.0 MB
+valheim_server-1  |   Used Block Count 0
+valheim_server-1  |   Overflow Count (too large) 0
+valheim_server-1  |   Overflow Count (full) 0
+valheim_server-1  | [ALLOC_TEMP_JOB_2_FRAMES]
+valheim_server-1  |   Initial Block Size 2.0 MB
+valheim_server-1  |   Used Block Count 0
+valheim_server-1  |   Overflow Count (too large) 0
+valheim_server-1  |   Overflow Count (full) 0
+valheim_server-1  | [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+valheim_server-1  |   Initial Block Size 2.0 MB
+valheim_server-1  |   Used Block Count 1
+valheim_server-1  |   Overflow Count (too large) 0
+valheim_server-1  |   Overflow Count (full) 0
+valheim_server-1  | [ALLOC_TEMP_JOB_ASYNC (Background)]
+valheim_server-1  |   Initial Block Size 1.0 MB
+valheim_server-1  |   Used Block Count 1
+valheim_server-1  |   Overflow Count (too large) 2
+valheim_server-1  |   Overflow Count (full) 0
+valheim_server-1  | [ALLOC_GFX] Dual Thread Allocator
+valheim_server-1  |   Peak main deferred allocation count 2
+valheim_server-1  |     [ALLOC_BUCKET]
+valheim_server-1  |       Large Block size 4.0 MB
+valheim_server-1  |       Used Block count 1
+valheim_server-1  |       Peak Allocated bytes 4.0 MB
+valheim_server-1  |       Failed Allocations. Bucket layout:
+valheim_server-1  |         16B: 2 Subsections = 2048 buckets. Failed count: 223265
+valheim_server-1  |         32B: 12 Subsections = 6144 buckets. Failed count: 99245
+valheim_server-1  |         48B: 28 Subsections = 9557 buckets. Failed count: 159158
+valheim_server-1  |         64B: 47 Subsections = 12032 buckets. Failed count: 161252
+valheim_server-1  |         80B: 44 Subsections = 9011 buckets. Failed count: 21237
+valheim_server-1  |         96B: 112 Subsections = 19114 buckets. Failed count: 41040
+valheim_server-1  |         112B: 6 Subsections = 877 buckets. Failed count: 6216
+valheim_server-1  |         128B: 5 Subsections = 640 buckets. Failed count: 110967
+valheim_server-1  |     [ALLOC_GFX_MAIN]
+valheim_server-1  |       Peak usage frame count: [32.0 KB-64.0 KB]: 13327 frames, [64.0 KB-128.0 KB]: 19373 frames, [128.0 KB-256.0 KB]: 7005 frames, [4.0 MB-8.0 MB]: 1 frames, [32.0 MB-64.0 MB]: 5 frames, [64.0 MB-128.0 MB]: 14675 frames
+valheim_server-1  |       Requested Block Size 16.0 MB
+valheim_server-1  |       Peak Block count 2
+valheim_server-1  |       Peak Allocated memory 71.6 MB
+valheim_server-1  |       Peak Large allocation bytes 48.0 MB
+valheim_server-1  |     [ALLOC_GFX_THREAD]
+valheim_server-1  |       Peak usage frame count: [0-1.0 KB]: 1 frames, [0.5 MB-1.0 MB]: 8784 frames, [1.0 MB-2.0 MB]: 1130 frames, [2.0 MB-4.0 MB]: 389 frames, [4.0 MB-8.0 MB]: 1075 frames, [8.0 MB-16.0 MB]: 2306 frames, [16.0 MB-32.0 MB]: 4566 frames, [32.0 MB-64.0 MB]: 7433 frames, [64.0 MB-128.0 MB]: 26662 frames, [128.0 MB-256.0 MB]: 2040 frames
+valheim_server-1  |       Requested Block Size 16.0 MB
+valheim_server-1  |       Peak Block count 9
+valheim_server-1  |       Peak Allocated memory 140.0 MB
+valheim_server-1  |       Peak Large allocation bytes 0 B
+valheim_server-1  | [ALLOC_CACHEOBJECTS] Dual Thread Allocator
+valheim_server-1  |   Peak main deferred allocation count 157
+valheim_server-1  |     [ALLOC_BUCKET]
+valheim_server-1  |       Large Block size 4.0 MB
+valheim_server-1  |       Used Block count 1
+valheim_server-1  |       Peak Allocated bytes 4.0 MB
+valheim_server-1  |       Failed Allocations. Bucket layout:
+valheim_server-1  |         16B: 2 Subsections = 2048 buckets. Failed count: 223265
+valheim_server-1  |         32B: 12 Subsections = 6144 buckets. Failed count: 99245
+valheim_server-1  |         48B: 28 Subsections = 9557 buckets. Failed count: 159158
+valheim_server-1  |         64B: 47 Subsections = 12032 buckets. Failed count: 161252
+valheim_server-1  |         80B: 44 Subsections = 9011 buckets. Failed count: 21237
+valheim_server-1  |         96B: 112 Subsections = 19114 buckets. Failed count: 41040
+valheim_server-1  |         112B: 6 Subsections = 877 buckets. Failed count: 6216
+valheim_server-1  |         128B: 5 Subsections = 640 buckets. Failed count: 110967
+valheim_server-1  |     [ALLOC_CACHEOBJECTS_MAIN]
+valheim_server-1  |       Peak usage frame count: [2.0 MB-4.0 MB]: 39694 frames, [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 10 frames, [32.0 MB-64.0 MB]: 14681 frames
+valheim_server-1  |       Requested Block Size 4.0 MB
+valheim_server-1  |       Peak Block count 5
+valheim_server-1  |       Peak Allocated memory 42.9 MB
+valheim_server-1  |       Peak Large allocation bytes 23.7 MB
+valheim_server-1  |     [ALLOC_CACHEOBJECTS_THREAD]
+valheim_server-1  |       Peak usage frame count: [64.0 KB-128.0 KB]: 1 frames, [64.0 MB-128.0 MB]: 7998 frames, [128.0 MB-256.0 MB]: 12263 frames, [256.0 MB-0.50 GB]: 34124 frames
+valheim_server-1  |       Requested Block Size 4.0 MB
+valheim_server-1  |       Peak Block count 84
+valheim_server-1  |       Peak Allocated memory 430.5 MB
+valheim_server-1  |       Peak Large allocation bytes 119.7 MB
+valheim_server-1  | [ALLOC_TYPETREE] Dual Thread Allocator
+valheim_server-1  |   Peak main deferred allocation count 136
+valheim_server-1  |     [ALLOC_BUCKET]
+valheim_server-1  |       Large Block size 4.0 MB
+valheim_server-1  |       Used Block count 1
+valheim_server-1  |       Peak Allocated bytes 4.0 MB
+valheim_server-1  |       Failed Allocations. Bucket layout:
+valheim_server-1  |         16B: 2 Subsections = 2048 buckets. Failed count: 223265
+valheim_server-1  |         32B: 12 Subsections = 6144 buckets. Failed count: 99245
+valheim_server-1  |         48B: 28 Subsections = 9557 buckets. Failed count: 159158
+valheim_server-1  |         64B: 47 Subsections = 12032 buckets. Failed count: 161252
+valheim_server-1  |         80B: 44 Subsections = 9011 buckets. Failed count: 21237
+valheim_server-1  |         96B: 112 Subsections = 19114 buckets. Failed count: 41040
+valheim_server-1  |         112B: 6 Subsections = 877 buckets. Failed count: 6216
+valheim_server-1  |         128B: 5 Subsections = 640 buckets. Failed count: 110967
+valheim_server-1  |     [ALLOC_TYPETREE_MAIN]
+valheim_server-1  |       Peak usage frame count: [256.0 KB-0.5 MB]: 39705 frames, [1.0 MB-2.0 MB]: 14681 frames
+valheim_server-1  |       Requested Block Size 2.0 MB
+valheim_server-1  |       Peak Block count 1
+valheim_server-1  |       Peak Allocated memory 1.5 MB
+valheim_server-1  |       Peak Large allocation bytes 0 B
+valheim_server-1  |     [ALLOC_TYPETREE_THREAD]
+valheim_server-1  |       Peak usage frame count: [0-1.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 42876 frames, [4.0 MB-8.0 MB]: 11509 frames
+valheim_server-1  |       Requested Block Size 2.0 MB
+valheim_server-1  |       Peak Block count 3
+valheim_server-1  |       Peak Allocated memory 4.5 MB
+valheim_server-1  |       Peak Large allocation bytes 0 B
+valheim_server-1  | 2025-07-17 03:44:16,919 INFO: Shutdown complete.
