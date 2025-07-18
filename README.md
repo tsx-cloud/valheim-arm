@@ -79,8 +79,8 @@ services:
 ## Links
 You can find the Docker builds here:
 https://hub.docker.com/r/tsxcloud/valheim-arm
-You can leave comments here:
-https://www.reddit.com/r/valheim/comments/1m3d6my/valheim_server_mods_on_arm64_yes_its_possible
+You can leave comments here:  
+https://www.reddit.com/r/valheim/comments/1m3d6my/valheim_server_mods_on_arm64_yes_its_possible  
 
 ## Acknowledgments
 https://github.com/husjon/valheim_server_oci_setup  
