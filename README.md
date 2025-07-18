@@ -48,6 +48,7 @@ https://github.com/FEX-Emu/FEX/blob/main/FEXCore/Source/Interface/Config/Config.
 | -------------------- | ----------------------------- | ----------------------------------------- |
 | steam install path | /root/valheim-server         | path to hold the dedicated server files |
 | world              | /root/.config/unity3d/IronGate/Valheim | path that holds the persistent world files         |
+Place your plugins in the ./valheim/server/BepInEx/plugins folder.
 
 ## docker-compose.yml
 
