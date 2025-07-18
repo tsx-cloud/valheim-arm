@@ -19,7 +19,7 @@ Autosave works correctly when using docker stop.
 - `ENABLE_PLUGINS` - enables or disables plugin support(Default: false)
 - `SERVER_NAME` - The name of the server as it should appear in the server browser (Default: "Valheim_Server")
 - `SERVER_WORLD` - The name of the `.fwl` and `.db` files used to store the world (Default: "tsx_world")
-- `SERVER_PASSWORD` - The password to enter the server
+- `SERVER_PASSWORD` - The password to enter the server. Must be 5 characters or longer
 - `SERVER_VISIBILITY` - Whether or not to show the server in the server browser (Default: 1)
   - `1` - Visible in browser
   - `0` - Invisible, only joinable by "Join IP"
@@ -56,6 +56,7 @@ services:
   valheim_server:
     image: tsxcloud/valheim-arm:latest
     restart: unless-stopped
+    stop_grace_period: 40s
     ports:
       - "2456:2456/udp"
       - "2457:2457/udp"
