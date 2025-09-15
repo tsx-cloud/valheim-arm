@@ -56,8 +56,8 @@ if [[ ! -f ${SERVER}/linux64/libpulse-mainloop-glib.so.0 ]]; then
     echo "Installing libpulse-mainloop-glib.so.0:x86_64"
     mkdir -p "${SERVER}/linux64/"
     pushd "$(mktemp -d)"
-    wget http://mirrors.edge.kernel.org/ubuntu/pool/main/p/pulseaudio/libpulse-mainloop-glib0_17.0%2Bdfsg1-2ubuntu2_amd64.deb
-    dpkg -x libpulse-mainloop-glib0_17.0+dfsg1-2ubuntu2_amd64.deb ./
+    wget http://mirrors.edge.kernel.org/ubuntu/pool/main/p/pulseaudio/libpulse-mainloop-glib0_17.0%2Bdfsg1-2ubuntu3_amd64.deb
+    dpkg -x libpulse-mainloop-glib0_17.0+dfsg1-2ubuntu3_amd64.deb ./
     cp usr/lib/x86_64-linux-gnu/libpulse-mainloop-glib.so.0 "${SERVER}/linux64/"
     echo "Installing libpulse-mainloop-glib.so.0:x86_64 - Done"
     popd
