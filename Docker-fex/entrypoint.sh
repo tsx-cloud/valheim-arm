@@ -71,6 +71,14 @@ else
     echo "Plugins support is DISABLED"
 fi
 
+if [ "$DISABLE_CROSSPLAY" = "true" ]; then
+    echo "Crossplay is DISABLED"
+    CROSSPLAY_FLAG=""
+else
+    echo "Crossplay is ENABLED"
+    CROSSPLAY_FLAG="-crossplay"
+fi
+
 mkdir -p "${PERSISTENT}/logs"
 LOG_FILE="${PERSISTENT}/logs/valheim_$(date '+%d-%m-%Y').log"
 
@@ -85,7 +93,7 @@ $runx64 ./valheim_server.x86_64 \
     -backupshort $SERVER_BACKUP_SHORT \
     -backuplong $SERVER_BACKUP_LONG \
     -savedir ${PERSISTENT} \
-    -crossplay \
+    ${CROSSPLAY_FLAG:+"$CROSSPLAY_FLAG"} \
     -nographics  \
     -batchmode \
     2>&1 | tee -a ${LOG_FILE} &
