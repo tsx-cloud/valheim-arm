@@ -12,6 +12,7 @@ services:
       - SERVER_WORLD=tsx_world
       - SERVER_PASSWORD=123456780
       - ENABLE_PLUGINS=false
+      - ENABLE_CROSSPLAY=false
     volumes:
       # Bind mount, to access the files directly on the host
       - ./valheim/server/:/root/valheim-server
