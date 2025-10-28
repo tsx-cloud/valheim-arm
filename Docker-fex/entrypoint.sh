@@ -71,12 +71,12 @@ else
     echo "Plugins support is DISABLED"
 fi
 
-if [ "$DISABLE_CROSSPLAY" = "true" ]; then
-    echo "Crossplay is DISABLED"
-    CROSSPLAY_FLAG=""
-else
+if [ "$ENABLE_CROSSPLAY" = "true" ]; then
     echo "Crossplay is ENABLED"
     CROSSPLAY_FLAG="-crossplay"
+else
+    echo "Crossplay is DISABLED"
+    CROSSPLAY_FLAG=""
 fi
 
 mkdir -p "${PERSISTENT}/logs"
