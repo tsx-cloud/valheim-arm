@@ -40,12 +40,10 @@ echo " "
 
 echo "Load vars for valheim_server.x86_64"
 ####
-export DOORSTOP_ENABLE=TRUE
-export DOORSTOP_INVOKE_DLL_PATH=/root/valheim-server/BepInEx/core/BepInEx.Preloader.dll
-export DOORSTOP_CORLIB_OVERRIDE_PATH=/root/valheim-server/unstripped_corlib
+export DOORSTOP_ENABLED=1
+export DOORSTOP_TARGET_ASSEMBLY=./BepInEx/core/BepInEx.Preloader.dll
 
-export LD_LIBRARY_PATH="/root/valheim-server/doorstop_libs:$LD_LIBRARY_PATH"
-export LD_LIBRARY_PATH="/root/valheim-server/linux64:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="./doorstop_libs:$LD_LIBRARY_PATH"
 ####
 
 echo "Starting server PRESS CTRL-C to exit"
@@ -66,7 +64,7 @@ fi
 sed -i "s/^enabled *=.*/enabled = ${ENABLE_PLUGINS}/" "${SERVER}/doorstop_config.ini"
 if [ "$ENABLE_PLUGINS" = "true" ]; then
     echo "Plugins support is ENABLED"
-    export LD_PRELOAD="/root/valheim-server/doorstop_libs/libdoorstop_x64.so:$LD_PRELOAD"
+    export LD_PRELOAD="libdoorstop_x64.so:$LD_PRELOAD"
 else
     echo "Plugins support is DISABLED"
 fi
