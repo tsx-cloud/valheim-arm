@@ -44,6 +44,7 @@ export DOORSTOP_ENABLED=1
 export DOORSTOP_TARGET_ASSEMBLY=./BepInEx/core/BepInEx.Preloader.dll
 
 export LD_LIBRARY_PATH="./doorstop_libs:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="./linux64:$LD_LIBRARY_PATH"
 ####
 
 echo "Starting server PRESS CTRL-C to exit"
