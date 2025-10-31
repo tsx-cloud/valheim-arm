@@ -1,4 +1,4 @@
-FROM tsxcloud/steamcmd-wine-ntsync:10.13-arm64-fex
+FROM tsxcloud/steamcmd-wine-ntsync:arm64-fex
 
 RUN apt update
 RUN apt install -y \

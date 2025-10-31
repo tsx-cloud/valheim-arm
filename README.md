@@ -17,7 +17,6 @@ Autosave works correctly when using docker stop.
 ### Environment Variables
 
 - `ENABLE_PLUGINS` - enables or disables plugin support(Default: false)
-- `ENABLE_CROSSPLAY` - enables or disables crossplay(Default: false)
 - `SERVER_NAME` - The name of the server as it should appear in the server browser (Default: "Valheim_Server")
 - `SERVER_WORLD` - The name of the `.fwl` and `.db` files used to store the world (Default: "tsx_world")
 - `SERVER_PASSWORD` - The password to enter the server. Must be 5 characters or longer
@@ -68,7 +67,6 @@ services:
       - SERVER_WORLD=tsx_world
       - SERVER_PASSWORD=123456780
       - ENABLE_PLUGINS=false
-      - ENABLE_CROSSPLAY=false
     volumes:
       # Bind mount, to access the files directly on the host
       - ./valheim/server/:/root/valheim-server
