@@ -26,7 +26,27 @@ echo " "
 
 echo "Update"
 export SteamAppId=892970
-steamcmd.sh +force_install_dir ${SERVER} +login anonymous +app_update 896660 +quit
+# SteamCMD (Oct 2026) is flaky under emulation: internal restart requests
+# (exit 42), random "Missing configuration" depot failures that can still
+# exit 0, and stalls mid-download. Downloads resume, so retry until the
+# server files exist.
+: "${STEAMCMD_ATTEMPTS:=12}"
+: "${STEAMCMD_TIMEOUT:=600}"
+STEAMCMD_FLAGS=(+@sSteamCmdForcePlatformBitness 64 +force_install_dir "${SERVER}" +login anonymous +app_update 896660 +quit)
+for attempt in $(seq 1 "${STEAMCMD_ATTEMPTS}"); do
+    echo "SteamCMD attempt ${attempt}/${STEAMCMD_ATTEMPTS}"
+    pkill -9 -f "/root/steamcmd/linux32/steamcmd" 2>/dev/null
+    timeout -k 5 "${STEAMCMD_TIMEOUT}" steamcmd.sh "${STEAMCMD_FLAGS[@]}" || true
+    # Only valheim_server.x86_64 comes from the depot; the BepInEx files are
+    # copied after this loop, so they must not be checked here.
+    [ -f "${SERVER}/valheim_server.x86_64" ] && break
+    sleep 5
+done
+
+if [ ! -f "${SERVER}/valheim_server.x86_64" ]; then
+    echo "$(timestamp) ERROR: valheim_server.x86_64 was not installed by steamcmd, aborting (check the Update log above)"
+    exit 1
+fi
 
 echo "Checking if BepInEx files need to be copied"
 mkdir -p "${SERVER}"

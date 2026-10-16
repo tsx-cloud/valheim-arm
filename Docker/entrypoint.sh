@@ -26,7 +26,46 @@ echo " "
 
 echo "Update"
 export SteamAppId=892970
-steamcmd.sh +@sSteamCmdForcePlatformType windows +force_install_dir ${SERVER} +login anonymous +app_update 896660 validate +quit
+# SteamCMD self-updates on every start, and its Oct 2026 build broke the
+# emulated ARM64 flow:
+#  - its launcher looks for a native "linuxarm64" steamcmd, which Valve never
+#    publishes in the linux tarball
+#  - running it through the launcher script fails depot resolution
+#    intermittently ("Missing configuration"); the launcher's x86
+#    LD_LIBRARY_PATH is the prime suspect (unconfirmed), and as a 32bit client
+#    it resolves the "windows 32" depot set unless bitness is forced to 64
+#  - under box32 it can stall mid-download or corrupt the heap
+#    ("malloc(): invalid size (unsorted)", "stalled cross-thread pipe")
+# Workaround: on ARM64 run the 32bit binary directly through box64, without
+# the launcher script, and retry until the server files exist. steamcmd
+# resumes partial downloads, so attempts make cumulative progress:
+#  - the timeout kills stalled attempts, absorbing the launcher's internal
+#    restart request (exit code 42) the same way
+#  - a "Missing configuration" failure can still exit 0, so success is judged
+#    by valheim_server.exe existing, not by the exit code
+#  - leftover processes are killed so two instances never fight over the
+#    download (observed to make stalls much more frequent)
+: "${STEAMCMD_ATTEMPTS:=12}"
+: "${STEAMCMD_TIMEOUT:=600}"
+STEAMCMD_FLAGS=(+@sSteamCmdForcePlatformType windows +@sSteamCmdForcePlatformBitness 64 +force_install_dir "${SERVER}" +login anonymous +app_update 896660 validate +quit)
+if [ "$(dpkg --print-architecture)" = "arm64" ]; then
+    STEAMCMD_CMD=(box64 /root/steamcmd/linux32/steamcmd)
+else
+    export LD_LIBRARY_PATH="/root/steamcmd/linux32:${LD_LIBRARY_PATH:-}"
+    STEAMCMD_CMD=("/root/steamcmd/linux32/steamcmd")
+fi
+for attempt in $(seq 1 "${STEAMCMD_ATTEMPTS}"); do
+    echo "SteamCMD attempt ${attempt}/${STEAMCMD_ATTEMPTS}"
+    pkill -9 -f "/root/steamcmd/linux32/steamcmd" 2>/dev/null
+    timeout -k 5 "${STEAMCMD_TIMEOUT}" "${STEAMCMD_CMD[@]}" "${STEAMCMD_FLAGS[@]}" || true
+    [ -f "${SERVER}/valheim_server.exe" ] && break
+    sleep 5
+done
+
+if [ ! -f "${SERVER}/valheim_server.exe" ]; then
+    echo "$(timestamp) ERROR: valheim_server.exe was not installed by steamcmd, aborting (check the Update log above)"
+    exit 1
+fi
 
 echo "Checking if BepInEx files need to be copied"
 mkdir -p "${SERVER}"

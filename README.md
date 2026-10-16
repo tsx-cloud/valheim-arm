@@ -28,6 +28,12 @@ Autosave works correctly when using docker stop.
 - `SERVER_BACKUPS` - How many automatic backups will be kept (Default: 4)
 - `SERVER_BACKUP_SHORT` - The interval between the first automatic backups (Default: 7200)
 - `SERVER_BACKUP_LONG` - The interval between the subsequent automatic backups (Default: 43200)
+- `STEAMCMD_ATTEMPTS` - How many times the entrypoint retries SteamCMD if it fails to install/update the server files (Default: 12)
+- `STEAMCMD_TIMEOUT` - Maximum time in seconds for each SteamCMD attempt. Stalled attempts are killed and resumed on the next one (Default: 600)
+
+### SteamCMD reliability
+
+SteamCMD auto-updates on every start and, running emulated on arm64, it can occasionally request an internal restart, fail to resolve depots or stall mid-download. The entrypoint retries it automatically until the server files are present (SteamCMD resumes partial downloads), so no manual action is needed — the first boot after a SteamCMD update may simply take a few minutes longer.
 
 ### Ports
 

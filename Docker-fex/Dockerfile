@@ -1,10 +1,19 @@
 FROM tsxcloud/steamcmd-wine-ntsync:arm64-fex
 
+# SteamCMD (Oct 2026) looks for a native "linuxarm64" steamcmd, which Valve
+# never publishes. Force the emulated linux32 binary again.
+ENV STEAM_PLATFORM=linux32
+
+# How hard the entrypoint tries to get the server files in (see entrypoint.sh).
+ENV STEAMCMD_ATTEMPTS=12
+ENV STEAMCMD_TIMEOUT=600
+
 RUN apt update
 RUN apt install -y \
         libatomic1 \
         libpulse-dev \
-        libpulse0
+        libpulse0 \
+        procps
 
 ENV ENABLE_PLUGINS="false"
 ENV SERVER_NAME="Valheim_Server"
