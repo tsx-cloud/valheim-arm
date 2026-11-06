@@ -4,6 +4,12 @@
         <name>BepInEx.Preloader</name>
     </assembly>
     <members>
+        <member name="F:BepInEx.Preloader.PreloaderRunner.XTermFixException">
+            <summary>
+                Exceptions thrown by XTermFix.Apply() and ConsoleSetOutFix.Apply() during early preloader init,
+                stored for deferred logging in <see cref="M:BepInEx.Preloader.Preloader.Run"/> once the logger is available.
+            </summary>
+        </member>
         <member name="T:BepInEx.Preloader.EnvVars">
             <summary>
             Doorstop environment variables, passed into the BepInEx preloader.
@@ -154,6 +160,31 @@
             <summary>
                 Allocates a console window for use by BepInEx safely.
             </summary>
+        </member>
+        <member name="T:BepInEx.Preloader.RuntimeFixes.AppleSiliconDetourFix">
+            <summary>
+                Lets MonoMod write detours when the game runs as a native arm64 process on Apple Silicon.
+            </summary>
+            <remarks>
+                Unity has the <c>allow-jit</c> entitlement but not <c>allow-unsigned-executable-memory</c>, so its
+                code sits in a MAP_JIT region: <c>mprotect</c> returns EACCES and <c>mach_vm_write</c> returns
+                KERN_INVALID_ADDRESS. Only <c>pthread_jit_write_protect_np</c> gets in, and it cannot be called from
+                managed code, because it drops execute permission for the calling thread and that thread is running
+                JIT-compiled code. The toggle and the write must share one native frame, which is what doorstop's
+                <c>doorstop_jit_memcpy</c> is for.
+            </remarks>
+        </member>
+        <member name="P:BepInEx.Preloader.RuntimeFixes.AppleSiliconDetourFix.Exception">
+            <summary>Why the fix could not install. Logged by the preloader once its logger exists.</summary>
+        </member>
+        <member name="T:BepInEx.Preloader.RuntimeFixes.AppleSiliconDetourFix.AppleSiliconNativePlatform">
+            <summary>Replaces only the memory and code-writing operations; encoding stays with the inner platform.</summary>
+        </member>
+        <member name="F:BepInEx.Preloader.RuntimeFixes.AppleSiliconDetourFix.AppleSiliconNativePlatform.RtldDefault">
+            <summary>RTLD_DEFAULT on macOS. Searches every image already loaded into the process.</summary>
+        </member>
+        <member name="F:BepInEx.Preloader.RuntimeFixes.AppleSiliconDetourFix.AppleSiliconNativePlatform.DetourSizes">
+            <summary>Mirrors DetourNativeARMPlatform.DetourSizes, which is private.</summary>
         </member>
         <member name="T:BepInEx.Preloader.RuntimeFixes.TraceFix">
             <summary>

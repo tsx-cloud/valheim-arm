@@ -1,0 +1,29 @@
+42 commits since v5.4.23.6
+
+Changelog (excluding merges):
+* (268c5ed) [AzumattDev] Bump pack version to 5.4.2360
+* (27e6627) [AzumattDev] Swap in stock Doorstop 4.6.0 libs
+* (fd72254) [AzumattDev] Log the Valheim version after the log file is open so it actually shows up
+* (8f6ba49) [AzumattDev] Bump pack version to 5.4.2351 and drop the site from its log line
+* (7c4b1d9) [AzumattDev] Log plugin GUIDs, duplicate locations and load counts
+* (987bc58) [AzumattDev] Swap in stock Doorstop 4.5.0 libdoorstop.so
+* (ef506e0) [AzumattDev] Bump Thunderstore version to 5.4.2350
+* (45fa8e2) [AzumattDev] Fix version suffix detection when only one of - or + is present
+* (f4e29bd) [AzumattDev] Fold the two Unity 6 log writer probes into one
+* (03296e9) [Bob Weinand] Support Version suffixes
+* (831cbaf) [AzumattDev] v5.4.2333 | Log Valheim version sooner in case of chainloader failure | Fix logging issues in UnityLogListener.cs for Unity 6
+* (f88cb09) [AzumattDev] Ver bump 5.4.2332
+* (921d56b) [AzumattDev] Move files for start scripts and upload current used doorstop_libs
+* (ab59745) [AzumattDev] Ver bump to 5.4.2331
+* (3b4365d) [AzumattDev] Update start_server_bepinex.sh with new vars
+* (10e60e6) [AzumattDev] Add valheim start scripts
+* (2c5794f) [AzumattDev] Fix versioning, toggle isModded if available.
+* (2b7d0d0) [AzumattDev] Update TS Property: 5.4.23.3
+* (ed84cb4) [Pete Navarra] Upping version number to 5.4.2202
+* (959b7c1) [Pete Navarra] Additional Change to support Backwards Compat with Unity 2020 vs Unity 2022.
+* (6c1672d) [Pete Navarra] Updated Preloader Version and Updated UnityPatches (per blaxxun)
+* (cd89780) [AzumattDev] Update to 5.4.200 for TS change
+* (ae28dd8) [Pete Navarra] Updating Thunderstore Version
+* (65b6ca1) [AzumattDev] Move print location
+* (03ce285) [AzumattDev] Change wording to be clear.
+* (a582276) [AzumattDev] Valheim TS Changes

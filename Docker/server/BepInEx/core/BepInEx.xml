@@ -837,6 +837,11 @@
             The specfic version of the plugin.
             </summary>
         </member>
+        <member name="P:BepInEx.BepInPlugin.VersionExtra">
+            <summary>
+            The version suffix of the plugin (anything trailing a - or + in the version info).
+            </summary>
+        </member>
         <member name="M:BepInEx.BepInPlugin.#ctor(System.String,System.String,System.String)">
             <param name="GUID">The unique identifier of the plugin. Should not change between plugin versions.</param>
             <param name="Name">The user friendly name of the plugin. Is able to be changed between versions.</param>

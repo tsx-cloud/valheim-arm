@@ -1,6 +1,6 @@
 services:
   valheim_server:
-    image: tsxcloud/valheim-arm:latest
+    image: lucascerq/valheim-arm:latest
     restart: unless-stopped
     stop_grace_period: 40s
     ports:

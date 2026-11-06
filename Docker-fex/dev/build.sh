@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t tsxcloud/valheim-arm:arm64-fex ../
+docker build -t lucascerq/valheim-arm:arm64-fex ../
